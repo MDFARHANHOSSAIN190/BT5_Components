@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="bt5 components">
+<meta name="description" content="lorem">
+<meta name="keywords" content="html,css,bootstrap">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
+<meta name="revisit-after" content="3 days">
+<meta name="author" content="MD FARHAN HOSSAIN">
+
+
+	<title>BT5 Components</title>
+	<!-- font links -->
+
+	<!-- css links -->
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+<!-- scrollspy start -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#section1">Section 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Section 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Section 3</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <h1>Section 1</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam veniam enim dolore! Sequi maiores repudiandae dignissimos eum officia quis. Voluptatem consectetur quos impedit quis expedita molestiae nisi rerum quod similique quidem. Neque saepe aperiam veritatis!</p>
+</div>
+
+<div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <h1>Section 2</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae similique repellat corporis dolore? Officiis quod, ab modi nesciunt deserunt. Unde, ut dolor, libero cum distinctio mollitia provident aut porro!</p>
+</div>
+
+<div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <h1>Section 3</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Tempore exercitationem omnis, voluptas, porro nisi sequi.</p>
+</div>
+
+
+
+
+
+  <!-- scrollspy end-->
+	<!-- caarousel start -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<!-- carousel -->
+			<div id="cid" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				<!-- indicators -->
+				 <div class="carousel-indicators">
+    <button type="button" data-bs-target="#cid" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#cid" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#cid" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#cid" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#cid" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+				<!-- inner start-->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="img/hill.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="img/bird.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="img/road.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+
+     <div class="carousel-item" data-bs-interval="3000">
+      <img src="img/ocean.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Some representative placeholder content for the fourth slide.</p>
+      </div>
+    </div>
+
+     <div class="carousel-item" data-bs-interval="3000">
+      <img src="img/forest.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fifth slide label</h5>
+        <p>Some representative placeholder content for the fifth slide.</p>
+      </div>
+    </div>
+  </div>
+  <!-- inner end -->
+  <!-- controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#cid" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cid" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+			<!-- carousel -->
+		</div>
+	</div>
+</div>
+<!-- carousel end -->
+<br><br><br>
+<hr><hr>
+
+<!-- bt5 tooltips start -->
+
+<div class="container c_pad">
+  <abbr title="World Health Organization">WHO</abbr>
+
+   <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="World Health Organization">
+ WHO
+  </button>
+
+</div>
+
+ 
+<!-- bt5 tooltips end -->
+<!-- BT5 modal start -->
+
+<div class="container c_pad2">
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1>Lorem ipsum dolor sit, amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui aut ab ratione ea inventore aliquid minima quod amet voluptatibus doloremque, mollitia delectus reiciendis eius, sed, fugit nisi dolores. Eius.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- BT5 modal end -->
+<hr><hr>
+<!-- collapse start -->
+<div class="container c_pad3">
+  <p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    Toggle width collapse
+  </button>
+</p>
+<div style="min-height: 120px;">
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body" style="width: 300px;">
+      This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+    </div>
+  </div>
+</div>
+  
+</div>
+<!-- collapse end -->
+<!-- accordion start -->
+<hr><hr>
+
+<!-- off canvas start -->
+<div class="container c_pad3">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Page 1</a></li>
+        <li><a class="dropdown-item" href="#">Page 2</a></li>
+        <li><a class="dropdown-item" href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- off canvas end -->
+<!-- accordion start -->
+<div class="container c_pad3"></div>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong>  Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Odit, fugit doloremque incidunt eos qui nisi excepturi laboriosam dignissimos sit laborum magni dolores est molestiae repellendus!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus eligendi dignissimos ipsum voluptate impedit ab animi nesciunt, dolorem sed quod nemo sunt repudiandae repellendus natus?
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, enim quibusdam consequuntur neque sed officia facere praesentium, non! Vitae voluptas sunt dignissimos at aperiam nihil?
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- js links -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
